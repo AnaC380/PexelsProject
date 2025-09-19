@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PexelsProject.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+394b6f08288ad1f70c024e4fdfe3088641ba4da1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63d7bbdf7edd67e67567f76ca3cebfbb3511d123")]
 [assembly: System.Reflection.AssemblyProductAttribute("PexelsProject.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PexelsProject.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

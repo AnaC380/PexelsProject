@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego\\PexelsProject\\pexelsproject.presentation\\PexelsProject.Presentation.csproj": {}
+    "C:\\Users\\Diego\\PexelsProject\\PexelsProject.Presentation\\PexelsProject.Presentation.csproj": {}
   },
   "projects": {
     "C:\\Users\\Diego\\PexelsProject\\PexelsProject.Application\\PexelsProject.Application.csproj": {
@@ -189,14 +189,14 @@
         }
       }
     },
-    "C:\\Users\\Diego\\PexelsProject\\pexelsproject.presentation\\PexelsProject.Presentation.csproj": {
+    "C:\\Users\\Diego\\PexelsProject\\PexelsProject.Presentation\\PexelsProject.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego\\PexelsProject\\pexelsproject.presentation\\PexelsProject.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\PexelsProject\\PexelsProject.Presentation\\PexelsProject.Presentation.csproj",
         "projectName": "PexelsProject.Presentation",
-        "projectPath": "C:\\Users\\Diego\\PexelsProject\\pexelsproject.presentation\\PexelsProject.Presentation.csproj",
+        "projectPath": "C:\\Users\\Diego\\PexelsProject\\PexelsProject.Presentation\\PexelsProject.Presentation.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego\\PexelsProject\\pexelsproject.presentation\\obj\\",
+        "outputPath": "C:\\Users\\Diego\\PexelsProject\\PexelsProject.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
