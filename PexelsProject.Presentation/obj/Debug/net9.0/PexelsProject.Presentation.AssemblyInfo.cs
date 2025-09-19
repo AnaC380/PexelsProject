@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b1a5e9dc-6627-4f72-8fda-632423a4dc13")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PexelsProject.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+394b6f08288ad1f70c024e4fdfe3088641ba4da1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PexelsProject.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PexelsProject.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

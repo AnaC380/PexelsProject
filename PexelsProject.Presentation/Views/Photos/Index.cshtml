@@ -1,0 +1,19 @@
+@model List<string>
+
+<h2>Resultados da busca</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>Nenhuma foto encontrada. Tente outro termo de busca.</p>
+}
+else
+{
+    <div style="display:flex; flex-wrap:wrap;">
+        @foreach (var photo in Model)
+        { 
+            <div style="margin:10px;">
+                <img src="@photo" alt="Imagem Pexels" style="max-width:300px; border-radius:8px;" />
+            </div>
+        }
+    </div>
+}
