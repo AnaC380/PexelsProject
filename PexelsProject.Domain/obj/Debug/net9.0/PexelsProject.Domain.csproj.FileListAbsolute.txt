@@ -20,3 +20,4 @@ C:\Users\Diego\PexelsProject\PexelsProject.Domain\obj\Debug\net9.0\PexelsProject
 C:\Users\Diego\PexelsProject\PexelsProject.Domain\obj\Debug\net9.0\refint\PexelsProject.Domain.dll
 C:\Users\Diego\PexelsProject\PexelsProject.Domain\obj\Debug\net9.0\PexelsProject.Domain.pdb
 C:\Users\Diego\PexelsProject\PexelsProject.Domain\obj\Debug\net9.0\ref\PexelsProject.Domain.dll
+C:\Users\Diego\PexelsProject\PexelsProject.Domain\obj\Debug\net9.0\PexelsProject.Domain.sourcelink.json

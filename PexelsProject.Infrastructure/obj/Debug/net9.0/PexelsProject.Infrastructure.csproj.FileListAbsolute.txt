@@ -28,3 +28,4 @@ C:\Users\Diego\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net9.0\Pexel
 C:\Users\Diego\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net9.0\refint\PexelsProject.Infrastructure.dll
 C:\Users\Diego\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net9.0\PexelsProject.Infrastructure.pdb
 C:\Users\Diego\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net9.0\ref\PexelsProject.Infrastructure.dll
+C:\Users\Diego\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net9.0\PexelsProject.Infrastructure.sourcelink.json
