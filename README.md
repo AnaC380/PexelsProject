@@ -38,6 +38,7 @@ Acesso à internet para consumir a API do Pexels
 git clone https://github.com/AnaC380/PexelsProject.git
 cd PexelsProject
 
+
 2. Restaure as dependências:
 
 dotnet restore
