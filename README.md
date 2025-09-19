@@ -1,9 +1,14 @@
-# PexelsProject
+PexelsProject
+📖 Descrição
 
-Descrição
-O PexelsProject é uma API RESTful desenvolvida em ASP.NET Core que integra com a API do Pexels — uma plataforma de fotos e vídeos livres de direitos autorais. Atualmente, a API já permite buscar fotos de forma simples e eficiente, demonstrando a integração com uma API externa. O projeto foi criado com o intuito de praticar o desenvolvimento de APIs web com .NET 8+ no estilo Minimal API.
+O PexelsProject é uma API RESTful desenvolvida em ASP.NET Core que integra com a API do Pexels — uma plataforma de fotos e vídeos livres de direitos autorais.
 
-Tecnologias Utilizadas
+Atualmente, a API já permite buscar fotos de forma simples e eficiente, demonstrando a integração com uma API externa.
+
+O projeto foi criado com o intuito de praticar o desenvolvimento de APIs web com .NET 8+ no estilo Minimal API.
+
+🛠️ Tecnologias Utilizadas
+
 Framework: ASP.NET Core (Minimal API)
 
 Linguagem: C#
@@ -16,29 +21,34 @@ Chamadas HTTP externas: HttpClient para integração com a API do Pexels
 
 Banco de dados: Não implementado (pode vir futuramente com EF Core)
 
-Outros: Configuração via appsettings.json ou variáveis de ambiente.
+Outros: Configuração via appsettings.json ou variáveis de ambiente
 
-Pré-requisitos
+📌 Pré-requisitos
+
 .NET 8 SDK instalado
 
 Acesso à internet para consumir a API do Pexels
 
 (Opcional) Chave de API do Pexels para usar os endpoints de busca
 
-Instalação e Configuração
-Clone o repositório:
+⚙️ Instalação e Configuração
 
+1. Clone o repositório:
 
 git clone https://github.com/AnaC380/PexelsProject.git
 cd PexelsProject
-Restaure as dependências:
 
+2. Restaure as dependências:
 
 dotnet restore
-Configure a chave da API do Pexels:
-Crie uma conta gratuita no Pexels e pegue sua chave de API. Adicione a chave no arquivo appsettings.json ou defina como uma variável de ambiente:
 
-JSON
+3. Configure a chave da API do Pexels:
+
+. Crie uma conta gratuita no Pexels e pegue sua chave de API.
+
+. Adicione a chave no arquivo appsettings.json ou defina como uma variável de ambiente.
+
+json:
 
 // appsettings.json
 {
@@ -46,74 +56,84 @@ JSON
     "ApiKey": "sua_chave_aqui"
   }
 }
-Como Executar
+
+▶️ Como Executar
+
 O projeto pode ser executado em ambiente de Desenvolvimento para que as configurações do arquivo appsettings.Development.json sejam lidas.
 
-Execute o projeto a partir da pasta PexelsProject.Presentation:
+Windows PowerShell:
 
-# Para Windows PowerShell
 $env:ASPNETCORE_ENVIRONMENT="Development"; dotnet run
 
-# Para ambientes Unix/Linux
+Unix/Linux:
+
 export ASPNETCORE_ENVIRONMENT=Development && dotnet run
 
-O servidor rodará em:
+🔗 O servidor rodará em:
 
-HTTP: http://localhost:5000
+. HTTP: http://localhost:5000
 
-Endpoints Disponíveis Atualmente
-GET / — Mensagem de boas-vindas.
 
-GET /weatherforecast — Previsão de tempo simulada.
+📡 Endpoints Disponíveis
 
-GET /photos/{query} — Busca fotos por palavra-chave (ex: /photos/nature).
+. GET / → Mensagem de boas-vindas
 
-GET /swagger — Documentação interativa da API (quando em ambiente de desenvolvimento).
+. GET /weatherforecast → Previsão de tempo simulada
 
-Estrutura do Projeto
-O projeto segue uma estrutura de camadas para melhor organização e separação de responsabilidades:
+. GET /photos/{query} → Busca fotos por palavra-chave (ex: /photos/nature)
 
-PexelsProject.Presentation: Camada que hospeda a API (arquivo Program.cs, configuração, endpoints).
+. GET /swagger → Documentação interativa da API (em ambiente de desenvolvimento)
 
-PexelsProject.Domain: Domínio da aplicação (entidades, regras de negócio).
+📂 Estrutura do Projeto
 
-PexelsProject.Infrastructure: Integrações externas, como a chamada para a API do Pexels.
+. PexelsProject.Presentation: Camada que hospeda a API (arquivo Program.cs, configuração, endpoints).
 
-Status do Projeto
+. PexelsProject.Domain: Domínio da aplicação (entidades, regras de negócio).
+
+. PexelsProject.Infrastructure: Integrações externas, como a chamada para a API do Pexels.
+
+📌 Status do Projeto
+
 ✅ Funcionalidades básicas de busca concluídas.
 
-🛠️ Futuras Melhorias
-[ ] Implementar busca por vídeos (/videos/{query}).
+🚀 Futuras Melhorias
 
-[ ] Adicionar paginação nos resultados.
+ . Implementar busca por vídeos (/videos/{query})
 
-[ ] Adicionar filtros por orientação, cor, etc.
+ . Adicionar paginação nos resultados
 
-[ ] Criar testes unitários e de integração.
+ . Adicionar filtros por orientação, cor, etc.
 
-[ ] Configurar CI/CD no GitHub Actions.
+ . Criar testes unitários e de integração
 
-[ ] Deploy automatizado em Azure ou AWS.
+ . Configurar CI/CD no GitHub Actions
 
-Contribuição
-Contribuições são bem-vindas! Para contribuir:
+ . Deploy automatizado em Azure ou AWS.
 
-Faça um fork do repositório.
+🤝 Contribuição
 
-Crie uma branch para sua funcionalidade: git checkout -b feature/nova-funcionalidade.
+Contribuições são bem-vindas!
 
-Faça seus commits com mensagens claras.
+1. Faça um fork do repositório
 
-Faça o push para sua branch no seu fork.
+2. Crie uma branch para sua funcionalidade:
 
-Abra um Pull Request para este repositório.
+git checkout -b feature/nova-funcionalidade
 
-Licença
+3. Faça seus commits com mensagens claras
+
+4. Faça o push para sua branch no seu fork
+
+5. Abra um Pull Request para este repositório
+
+📜 Licença
+
 Este projeto está licenciado sob a MIT License.
 
-Contato
-Autora: Ana C. (AnaC380)
+📬 Contato
 
-GitHub: AnaC380
+. Autora: Ana C. (AnaC380)
+
+. GitHub: AnaC380
 
 Se tiver dúvidas, sugestões ou quiser colaborar, abra uma issue ou entre em contato!
