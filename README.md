@@ -29,13 +29,11 @@ Acesso à internet para consumir a API do Pexels
 Instalação e Configuração
 Clone o repositório:
 
-Bash
 
 git clone https://github.com/AnaC380/PexelsProject.git
 cd PexelsProject
 Restaure as dependências:
 
-Bash
 
 dotnet restore
 Configure a chave da API do Pexels:
@@ -52,7 +50,7 @@ JSON
 Como Executar
 Execute o projeto a partir da pasta PexelsProject.Presentation:
 
-Bash
+
 
 dotnet run --project PexelsProject.Presentation/PexelsProject.Presentation.csproj
 O servidor rodará em:
