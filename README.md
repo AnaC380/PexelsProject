@@ -1,5 +1,4 @@
-PEXELSPROJECT
-
+# PexelsProject
 
 Descrição
 O PexelsProject é uma API RESTful desenvolvida em ASP.NET Core que integra com a API do Pexels — uma plataforma de fotos e vídeos livres de direitos autorais. Atualmente, a API já permite buscar fotos de forma simples e eficiente, demonstrando a integração com uma API externa. O projeto foi criado com o intuito de praticar o desenvolvimento de APIs web com .NET 8+ no estilo Minimal API.
