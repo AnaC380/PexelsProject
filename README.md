@@ -48,16 +48,19 @@ JSON
   }
 }
 Como Executar
+O projeto pode ser executado em ambiente de Desenvolvimento para que as configurações do arquivo appsettings.Development.json sejam lidas.
+
 Execute o projeto a partir da pasta PexelsProject.Presentation:
 
+# Para Windows PowerShell
+$env:ASPNETCORE_ENVIRONMENT="Development"; dotnet run
 
+# Para ambientes Unix/Linux
+export ASPNETCORE_ENVIRONMENT=Development && dotnet run
 
-dotnet run --project PexelsProject.Presentation/PexelsProject.Presentation.csproj
 O servidor rodará em:
 
 HTTP: http://localhost:5000
-
-HTTPS: https://localhost:5001
 
 Endpoints Disponíveis Atualmente
 GET / — Mensagem de boas-vindas.
