@@ -1,8 +1,6 @@
-Perfeito! Aqui está a versão completa e atualizada do README.md para você usar. Eu fiz as alterações que discutimos, removendo as partes que já foram concluídas e corrigindo a configuração da chave de API para o formato correto.
-
-Você pode copiar e colar este texto inteiro, substituindo o conteúdo do seu arquivo README.md.
-
 PexelsProject
+
+
 Descrição
 O PexelsProject é uma API RESTful desenvolvida em ASP.NET Core que integra com a API do Pexels — uma plataforma de fotos e vídeos livres de direitos autorais. Atualmente, a API já permite buscar fotos de forma simples e eficiente, demonstrando a integração com uma API externa. O projeto foi criado com o intuito de praticar o desenvolvimento de APIs web com .NET 8+ no estilo Minimal API.
 
@@ -119,4 +117,3 @@ Autora: Ana C. (AnaC380)
 GitHub: AnaC380
 
 Se tiver dúvidas, sugestões ou quiser colaborar, abra uma issue ou entre em contato!
-
