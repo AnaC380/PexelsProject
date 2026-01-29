@@ -1,0 +1,12 @@
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\bin\Debug\net8.0\PexelsProject.Domain.deps.json
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\bin\Debug\net8.0\PexelsProject.Domain.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\bin\Debug\net8.0\PexelsProject.Domain.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\PexelsProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\PexelsProject.Domain.AssemblyInfoInputs.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\PexelsProject.Domain.AssemblyInfo.cs
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\PexelsProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\PexelsProject.Domain.sourcelink.json
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\PexelsProject.Domain.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\refint\PexelsProject.Domain.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\PexelsProject.Domain.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Domain\obj\Debug\net8.0\ref\PexelsProject.Domain.dll

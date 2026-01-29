@@ -1,0 +1,16 @@
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\bin\Debug\net8.0\PexelsProject.Application.deps.json
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\bin\Debug\net8.0\PexelsProject.Application.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\bin\Debug\net8.0\PexelsProject.Application.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\bin\Debug\net8.0\PexelsProject.Domain.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\bin\Debug\net8.0\PexelsProject.Domain.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.csproj.AssemblyReference.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.AssemblyInfoInputs.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.AssemblyInfo.cs
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.sourcelink.json
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsPr.73FC51B6.Up2Date
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\refint\PexelsProject.Application.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\PexelsProject.Application.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Application\obj\Debug\net8.0\ref\PexelsProject.Application.dll

@@ -1,0 +1,16 @@
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\bin\Debug\net8.0\PexelsProject.Infrastructure.deps.json
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\bin\Debug\net8.0\PexelsProject.Infrastructure.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\bin\Debug\net8.0\PexelsProject.Infrastructure.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\bin\Debug\net8.0\PexelsProject.Domain.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\bin\Debug\net8.0\PexelsProject.Domain.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.AssemblyInfo.cs
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.sourcelink.json
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsPr.0394B186.Up2Date
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\refint\PexelsProject.Infrastructure.dll
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\PexelsProject.Infrastructure.pdb
+C:\Users\Ana Carolina\PROJETOS\repos\PexelsProject\PexelsProject.Infrastructure\obj\Debug\net8.0\ref\PexelsProject.Infrastructure.dll
