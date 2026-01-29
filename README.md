@@ -1,140 +1,280 @@
-PexelsProject
-📖 Descrição
+# PexelsProject
 
-O PexelsProject é uma API RESTful desenvolvida em ASP.NET Core que integra com a API do Pexels — uma plataforma de fotos e vídeos livres de direitos autorais.
+## 📖 Descrição
 
-Atualmente, a API já permite buscar fotos de forma simples e eficiente, demonstrando a integração com uma API externa.
+O **PexelsProject** é uma API RESTful desenvolvida em ASP.NET Core que integra com a [API do Pexels](https://www.pexels.com/api/) — uma plataforma de fotos e vídeos livres de direitos autorais.
 
-O projeto foi criado com o intuito de praticar o desenvolvimento de APIs web com .NET 8+ no estilo Minimal API.
+A API permite buscar fotos de forma eficiente e segura, demonstrando boas práticas de arquitetura de software, incluindo **Clean Architecture**, **Injeção de Dependência** e **Separação de Responsabilidades**.
 
-🛠️ Tecnologias Utilizadas
+Este projeto foi criado com o intuito de demonstrar conhecimento em desenvolvimento de APIs profissionais com .NET 8.
 
-Framework: ASP.NET Core (Minimal API)
+---
 
-Linguagem: C#
+## 🏗️ Arquitetura
 
-Versão do .NET: 8.0 ou superior
+O projeto segue os princípios da **Clean Architecture** (Arquitetura Limpa), organizado em camadas:
 
-Documentação: OpenAPI / Swagger
+```
+PexelsProject/
+├── PexelsProject.Domain/          # Entidades e regras de negócio
+├── PexelsProject.Application/      # Serviços, interfaces e lógica de aplicação
+├── PexelsProject.Infrastructure/   # Integrações externas (API do Pexels)
+└── PexelsProject.Presentation/     # API/Controllers e configuração
+```
 
-Chamadas HTTP externas: HttpClient para integração com a API do Pexels
+### Benefícios desta arquitetura:
+- ✅ **Testabilidade**: Facilita a criação de testes unitários
+- ✅ **Manutenibilidade**: Código organizado e fácil de manter
+- ✅ **Escalabilidade**: Preparado para crescer
+- ✅ **Separação de Responsabilidades**: Cada camada tem sua função específica
+- ✅ **Injeção de Dependência**: Baixo acoplamento entre componentes
 
-Banco de dados: Não implementado (pode vir futuramente com EF Core)
+---
 
-Outros: Configuração via appsettings.json ou variáveis de ambiente
+## 🛠️ Tecnologias Utilizadas
 
-📌 Pré-requisitos
+- **Framework**: ASP.NET Core 8.0
+- **Linguagem**: C# 12
+- **Arquitetura**: Clean Architecture com Controllers
+- **Documentação**: Swagger/OpenAPI (Swashbuckle)
+- **HTTP Client**: HttpClientFactory para integração com APIs externas
+- **Configuração**: appsettings.json e variáveis de ambiente
+- **Padrões**: Dependency Injection, Repository Pattern (preparado)
 
-.NET 8 SDK instalado
+---
 
-Acesso à internet para consumir a API do Pexels
+## 📌 Pré-requisitos
 
-(Opcional) Chave de API do Pexels para usar os endpoints de busca
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) instalado
+- Acesso à internet para consumir a API do Pexels
+- Chave de API do Pexels ([obtenha gratuitamente aqui](https://www.pexels.com/api/))
 
-⚙️ Instalação e Configuração
+---
 
-1. Clone o repositório:
+## ⚙️ Instalação e Configuração
 
+### 1. Clone o repositório:
+
+```bash
 git clone https://github.com/AnaC380/PexelsProject.git
 cd PexelsProject
+```
 
+### 2. Restaure as dependências:
 
-2. Restaure as dependências:
-
+```bash
 dotnet restore
+```
 
-3. Configure a chave da API do Pexels:
+### 3. Configure a chave da API do Pexels:
 
-. Crie uma conta gratuita no Pexels e pegue sua chave de API.
+Crie ou edite o arquivo `PexelsProject.Presentation/appsettings.Development.json`:
 
-. Adicione a chave no arquivo appsettings.json ou defina como uma variável de ambiente.
-
-json:
-
-// appsettings.json
+```json
 {
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
   "Pexels": {
-    "ApiKey": "sua_chave_aqui"
+    "ApiKey": "SUA_CHAVE_AQUI"
   }
 }
+```
 
-▶️ Como Executar
+> **⚠️ Importante**: Nunca commite sua chave de API real! Use variáveis de ambiente em produção.
 
-O projeto pode ser executado em ambiente de Desenvolvimento para que as configurações do arquivo appsettings.Development.json sejam lidas.
+---
 
-Windows PowerShell:
+## ▶️ Como Executar
 
-$env:ASPNETCORE_ENVIRONMENT="Development"; dotnet run
+### Executar em modo Development:
 
-Unix/Linux:
+**Windows (PowerShell):**
+```powershell
+$env:ASPNETCORE_ENVIRONMENT="Development"
+dotnet run --project PexelsProject.Presentation
+```
 
-export ASPNETCORE_ENVIRONMENT=Development && dotnet run
+**Windows (CMD):**
+```cmd
+set ASPNETCORE_ENVIRONMENT=Development
+dotnet run --project PexelsProject.Presentation
+```
 
-🔗 O servidor rodará em:
+**Unix/Linux/macOS:**
+```bash
+export ASPNETCORE_ENVIRONMENT=Development
+dotnet run --project PexelsProject.Presentation
+```
 
-. HTTP: http://localhost:5000
+### Executar com Hot Reload:
 
+```bash
+cd PexelsProject.Presentation
+dotnet watch run
+```
 
-📡 Endpoints Disponíveis
+---
 
-. GET / → Mensagem de boas-vindas
+## 🔗 Endpoints da API
 
-. GET /weatherforecast → Previsão de tempo simulada
+O servidor rodará em: **http://localhost:5000**
 
-. GET /photos/{query} → Busca fotos por palavra-chave (ex: /photos/nature)
+### Documentação Interativa
 
-. GET /swagger → Documentação interativa da API (em ambiente de desenvolvimento)
+- **Swagger UI**: http://localhost:5000/swagger
 
-📂 Estrutura do Projeto
+### Endpoints Disponíveis
 
-. PexelsProject.Presentation: Camada que hospeda a API (arquivo Program.cs, configuração, endpoints).
+| Método | Endpoint | Descrição | Exemplo |
+|--------|----------|-----------|---------|
+| `GET` | `/api/photos/{query}` | Busca fotos por palavra-chave | `/api/photos/nature` |
 
-. PexelsProject.Domain: Domínio da aplicação (entidades, regras de negócio).
+#### Exemplo de Requisição:
 
-. PexelsProject.Infrastructure: Integrações externas, como a chamada para a API do Pexels.
+```bash
+curl http://localhost:5000/api/photos/mountains
+```
 
-📌 Status do Projeto
+#### Exemplo de Resposta:
 
-✅ Funcionalidades básicas de busca concluídas.
+```json
+{
+  "page": 1,
+  "per_page": 10,
+  "photos": [
+    {
+      "id": 2325447,
+      "width": 5184,
+      "height": 3456,
+      "url": "https://www.pexels.com/photo/...",
+      "photographer": "Francesco Ungaro",
+      "photographer_url": "https://www.pexels.com/@francesco-ungaro",
+      "src": {
+        "original": "https://images.pexels.com/photos/...",
+        "large2x": "https://images.pexels.com/photos/...",
+        "large": "https://images.pexels.com/photos/...",
+        "medium": "https://images.pexels.com/photos/...",
+        "small": "https://images.pexels.com/photos/..."
+      },
+      "alt": "Hot air balloons float over landscape"
+    }
+  ]
+}
+```
 
-🚀 Futuras Melhorias
+---
 
- . Implementar busca por vídeos (/videos/{query})
+## 📂 Estrutura do Projeto
 
- . Adicionar paginação nos resultados
+```
+PexelsProject/
+│
+├── PexelsProject.Domain/
+│   └── (Entidades de domínio - futuro)
+│
+├── PexelsProject.Application/
+│   ├── Interfaces/
+│   │   └── IPhotoService.cs
+│   └── Services/
+│       └── PhotoService.cs
+│
+├── PexelsProject.Infrastructure/
+│   └── (Integrações externas - futuro)
+│
+└── PexelsProject.Presentation/
+    ├── Controllers/
+    │   └── PhotosController.cs
+    ├── Properties/
+    │   └── launchSettings.json
+    ├── Program.cs
+    ├── appsettings.json
+    └── appsettings.Development.json
+```
 
- . Adicionar filtros por orientação, cor, etc.
+---
 
- . Criar testes unitários e de integração
+## 📌 Status do Projeto
 
- . Configurar CI/CD no GitHub Actions
+✅ **Concluído:**
+- Arquitetura em camadas (Clean Architecture)
+- Integração com API do Pexels
+- Endpoint de busca de fotos
+- Documentação Swagger/OpenAPI
+- Injeção de dependência
+- Configuração por ambiente (Development/Production)
 
- . Deploy automatizado em Azure ou AWS.
+---
 
-🤝 Contribuição
+## 🚀 Futuras Melhorias
 
-Contribuições são bem-vindas!
+- [ ] Implementar DTOs (Data Transfer Objects) para respostas tipadas
+- [ ] Adicionar paginação customizável nos resultados
+- [ ] Adicionar filtros por orientação, cor, tamanho
+- [ ] Implementar busca de vídeos (`/api/videos/{query}`)
+- [ ] Adicionar cache de requisições (Redis/In-Memory)
+- [ ] Implementar tratamento de erros global (Exception Middleware)
+- [ ] Adicionar logging estruturado (Serilog)
+- [ ] Criar testes unitários e de integração (xUnit)
+- [ ] Implementar rate limiting
+- [ ] Adicionar autenticação/autorização (JWT)
+- [ ] Configurar CI/CD no GitHub Actions
+- [ ] Deploy automatizado em Azure ou AWS
+- [ ] Adicionar Health Checks
+- [ ] Containerização com Docker
 
-1. Faça um fork do repositório
+---
 
-2. Crie uma branch para sua funcionalidade:
+## 🧪 Testes
 
-git checkout -b feature/nova-funcionalidade
+(Em desenvolvimento)
 
-3. Faça seus commits com mensagens claras
+```bash
+dotnet test
+```
 
-4. Faça o push para sua branch no seu fork
+---
 
-5. Abra um Pull Request para este repositório
+## 🤝 Contribuição
 
-📜 Licença
+Contribuições são bem-vindas! Siga os passos:
 
-Este projeto está licenciado sob a MIT License.
+1. Faça um **fork** do repositório
+2. Crie uma **branch** para sua funcionalidade:
+   ```bash
+   git checkout -b feature/nova-funcionalidade
+   ```
+3. Faça seus **commits** com mensagens claras e descritivas
+4. Faça o **push** para sua branch:
+   ```bash
+   git push origin feature/nova-funcionalidade
+   ```
+5. Abra um **Pull Request** descrevendo suas alterações
 
-📬 Contato
+---
 
-. Autora: Ana C. (AnaC380)
+## 📜 Licença
 
-. GitHub: AnaC380
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-Se tiver dúvidas, sugestões ou quiser colaborar, abra uma issue ou entre em contato!
+---
+
+## 📬 Contato
+
+- **Autora**: Ana C.
+- **GitHub**: [@AnaC380](https://github.com/AnaC380)
+- **LinkedIn**: [Seu LinkedIn aqui]
+
+---
+
+## 🙏 Agradecimentos
+
+- [Pexels](https://www.pexels.com/) pela API gratuita de fotos
+- Comunidade .NET pelo suporte e documentação
+
+---
+
+**⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!**
