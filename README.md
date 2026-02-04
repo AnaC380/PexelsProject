@@ -264,9 +264,9 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 📬 Contato
 
-- **Autora**: Ana C.
+- **Autora**: Ana Carolina
 - **GitHub**: [@AnaC380](https://github.com/AnaC380)
-- **LinkedIn**: [Seu LinkedIn aqui]
+- **LinkedIn**: https://www.linkedin.com/in/ana-carolina-salles-b31a3421a/
 
 ---
 
